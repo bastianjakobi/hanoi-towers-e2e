@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "open": "cypress open",
+    "test": "cypress run"
   },
   "devDependencies": {
     "cypress": "^13.11.0",
