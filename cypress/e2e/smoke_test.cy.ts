@@ -6,6 +6,7 @@ const removeCookieBanner = () => {
   cy.get("div").contains("h3", "Cookie Richtlinie").parent().get("button").contains("Ok").click();
 };
 
+// Smoke tests for the hanoi tower application
 describe("Smoke Tests", () => {
   beforeEach(() => {
     cy.visit(URL);
